@@ -23,7 +23,7 @@ setup(
     author_email='api@bigcommerce.com',
 
     description='Connect Python applications with the Bigcommerce API',
-    long_description=read('README.rst'),
+    long_description=read('README.md'),
     license='MIT',
 
     keywords=['bigcommerce', 'api', 'v3', 'client'],

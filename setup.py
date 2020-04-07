@@ -10,20 +10,20 @@ def read(fname):
 VERSION = '0.1.18'
 
 setup(
-    name='bigcommerce',
+    name='bigcommerce_v3',
     version=VERSION,
 
     packages=find_packages(),
     install_requires=['requests>=2.1.0', 'pyjwt>=1.4.0'],
 
-    url='https://github.com/bigcommerce/bigcommerce-api-python',
+    url='https://github.com/demystify-systems/bigcommerce_v3',
     download_url='https://pypi.python.org/packages/source/b/bigcommerce/bigcommerce-{}.tar.gz'.format(VERSION),
 
     author='Bigcommerce Engineering',
     author_email='api@bigcommerce.com',
 
     description='Connect Python applications with the Bigcommerce API',
-    long_description=read('README.rst'),
+    long_description=read('README.md'),
     license='MIT',
 
     keywords=['bigcommerce', 'api', 'v3', 'client'],

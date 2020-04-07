@@ -1,0 +1,10 @@
+*.pyc
+ENV/
+
+#PyCharm
+.idea/
+
+Pipfile
+Pipfile.lock
+
+*.egg-info*
